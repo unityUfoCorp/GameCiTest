@@ -30,7 +30,7 @@ static Dictionary<string, string> arguments = new Dictionary<string, string>();
     //     string[] defaultScene ={ "Assets/Scenes/MainScene.unity" };
     //   //  BuildPipeline.BuildPlayer(defaultScene,"./builds/windows",BuildTarget.StandaloneWindows,BuildOptions.None);
     //     BuildPipeline.BuildPlayer(defaultScene,"./builds/Android",BuildTarget.Android,BuildOptions.AcceptExternalModificationsToPlayer);
-      AssetDatabase.Refresh();
+      //AssetDatabase.Refresh();
     }
 
 
