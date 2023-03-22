@@ -25,13 +25,13 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
        # run:  Start-Process -FilePath "F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh"  -Wait
-        run: . "C:/Program Files/2021.3.16f1/Editor/Unity.exe" -batchmode -projectPath ./ -mode gta -executeMethod BuildScript.PerformBuild -Wait
+        run: . "C:/Program Files/2021.3.16f1/Editor/Unity.exe"  -projectPath ./ -mode gta -executeMethod BuildScript.PerformBuild -Wait
       - name: wait 60
        # run:  Start-Process -FilePath "F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh"  -Wait
         run: sleep 120
       - name: trying to refresh
        # run:  Start-Process -FilePath "F:\UnityPlayground_test\GitActionsTest\Build\deploy.sh"  -Wait
-        run: . "C:/Program Files/2021.3.16f1/Editor/Unity.exe"  -batchmode -projectPath ./ -mode gta -executeMethod BuildScript.PerformBuild -Wait
+        run: . "C:/Program Files/2021.3.16f1/Editor/Unity.exe"   -projectPath ./ -mode gta -executeMethod BuildScript.PerformBuild -Wait
         
  
         
